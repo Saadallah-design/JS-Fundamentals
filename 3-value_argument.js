@@ -22,6 +22,8 @@ const argument = args;
 
 if (!argument[0]) {
   console.log("No argument");
-} else {
-  console.log(`${argument}`);
-} 
+} else if (argument[0]) {
+  console.log(`${argument.length} argument: "${argument}"`);
+} else if (argument[2]) {
+    console.log(`${argument.length} arguments: "${argument}"`);
+}
