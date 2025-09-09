@@ -20,7 +20,8 @@ function argumentsPassed () {
 // now let's display these using console.log
 // using the console.log will display 'undefined' 
 // we can use only the function without console.log to print only message
+// the task i think only specifies using console inside the function so I deleted it from below
 
-console.log(argumentsPassed());
-console.log(argumentsPassed(1));
-console.log(argumentsPassed(1,2,3));
+argumentsPassed();
+argumentsPassed(1);
+argumentsPassed(1,2,3);
