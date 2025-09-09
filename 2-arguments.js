@@ -22,6 +22,6 @@ function argumentsPassed () {
 // we can use only the function without console.log to print only message
 // the task i think only specifies using console inside the function so I deleted it from below
 
-argumentsPassed();
-argumentsPassed(1);
 argumentsPassed(1,2,3);
+argumentsPassed(1);
+argumentsPassed();
