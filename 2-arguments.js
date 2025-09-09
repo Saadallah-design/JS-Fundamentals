@@ -23,5 +23,3 @@ function argumentsPassed () {
 // the task i think only specifies using console inside the function so I deleted it from below
 
 argumentsPassed(1,2,3);
-argumentsPassed(1);
-argumentsPassed();
