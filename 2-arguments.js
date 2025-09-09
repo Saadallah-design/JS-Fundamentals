@@ -23,4 +23,4 @@ function argumentsPassed () {
 
 console.log(argumentsPassed());
 console.log(argumentsPassed(1));
-console.log(argumentsPassed(1,2,3);
+console.log(argumentsPassed(1,2,3));
