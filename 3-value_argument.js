@@ -20,12 +20,12 @@
 
 // seems i didn't read the task requirements carefully
 // it only asks for argument passed and 0 arg
-const args = process.argv.slice(2);
-const argument = args;
+const args = process.argv;
+const firstArgument = args[2];
 
 // using join method to print arguments
-if (args[0] === undefined) {
+if (firstArgument === undefined) {
   console.log("No argument")
 } else {
-  console.log(`"${argument.join(' ')}"`);
+  console.log(firstArgument);
 }
