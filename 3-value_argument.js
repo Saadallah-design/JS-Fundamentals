@@ -17,14 +17,19 @@
 // if it is true I will print "No argument"
 // if anything else I will print the value of the argument
 
+
+// seems i didn't read the task requirements carefully
+// it only asks for argument passed and 0 arg
 const args = process.argv.slice(2);
 const argument = args;
 
-if (args[0] === undefined) {
-  console.log("No argument");
+
+if (args) {
+  console.log(argument);
 } else {
+  console.log("No argument")
   // trying to count without using method .length
-  let count = 0;
-  for (const i of args) count++;
-  console.log(`${count} arguments: "${args}"`)
+  // let count = 0;
+  // for (const i of args) count++;
+  // console.log(`${count} arguments: "${args}"`)
 }
