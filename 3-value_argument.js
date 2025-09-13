@@ -25,7 +25,7 @@ const argument = args;
 
 
 if (args) {
-  console.log(argument);
+  console.log(`"${argument}"`);
 } else {
   console.log("No argument")
   // trying to count without using method .length
