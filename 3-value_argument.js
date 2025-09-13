@@ -20,10 +20,11 @@
 const args = process.argv.slice(2);
 const argument = args;
 
-if (!argument[0]) {
+if (args[0] === undefined) {
   console.log("No argument");
-} else if (argument[0]) {
-  console.log(`${argument.length} argument: "${argument}"`);
-} else if (argument[2]) {
-    console.log(`${argument.length} arguments: "${argument}"`);
+} else {
+  // trying to count without using method .length
+  let count = 0;
+  for (const i of args) count++;
+  console.log(`${count} arguments: "${args}"`)
 }
