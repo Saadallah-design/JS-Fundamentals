@@ -23,9 +23,9 @@
 const args = process.argv.slice(2);
 const argument = args;
 
-
-if (args) {
-  console.log(`"${argument}"`);
-} else {
+// using join method to print arguments
+if (args[0] === undefined) {
   console.log("No argument")
+} else {
+  console.log(`"${argument.join(' ')}"`);
 }
