@@ -17,6 +17,6 @@ if(isNaN(number) || userInput === undefined)  {
 }   else if (!Number.isInteger(number) || userInput == number) {
     let intNumber = Math.trunc(number);
     userInput = intNumber;
-    console.log("My number is " + userInput)
+    console.log("My number: " + userInput)
 }   
 
