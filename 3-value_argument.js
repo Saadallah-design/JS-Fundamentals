@@ -28,8 +28,4 @@ if (args) {
   console.log(`"${argument}"`);
 } else {
   console.log("No argument")
-  // trying to count without using method .length
-  // let count = 0;
-  // for (const i of args) count++;
-  // console.log(`${count} arguments: "${args}"`)
 }
